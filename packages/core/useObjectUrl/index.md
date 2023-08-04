@@ -35,7 +35,7 @@ const onFileChange = (event) => {
 ```html
 <template>
   <UseObjectUrl v-slot="url" :object="file">
-    <a :href="url">Open file</a>
+    <a :href="url.value">Open file</a>
   </UseObjectUrl>
 </template>
 ```
